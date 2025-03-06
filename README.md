@@ -1,78 +1,95 @@
-Here’s the translated content in English along with the README guide you requested:
+# **KiteAI Tool**
+
+KiteAI is a Node.js-based tool that works with both proxy and no-proxy setups. It offers features like automatic API updates and specialized functionality for blockchain, cryptocurrency, and Web3 tasks.  
+
+**🌐 Website Link:** [KiteAI](https://testnet.gokite.ai/?r=kMDdRk2k)
 
 ---
 
-**Tool: Go Kite AI (KiteAI)**
-
-**Uses:** Node.js (supports both no-proxy and proxy setups)
-
-**🌐 Website Link:** [KiteAI](https://testnet.gokite.ai?r=G692XZhY)
-
-### Features:
-✔️ Updates to the API (added functionality for automatic API updates)  
-✔️ All other features remain unchanged  
+## **Features**
+- **Automatic API Updates**: Seamlessly updates APIs with the newest changes.  
+- **Multi-Functionality**: Supports tasks like assisting with blockchain-related queries, crypto price analysis, and transaction data insights.
+- **Customizable Configuration**: Personalize the tool via easy-to-edit configuration files.
+- **Proxy/No-Proxy Support**: Flexible options for setup.
 
 ---
 
-### 🖥 **Instructions:**
-After downloading and extracting the files, open your terminal and follow these steps:
+## **Setup Instructions**
 
-1️⃣ **Install necessary modules:**  
-Run the following command in the terminal:  
-`npm install`  
-Then configure the bot in the `config.js` file.
-
-2️⃣ **Wallet configuration:**  
-Save wallet addresses in the `wallets.txt` file.  
-Save proxy details in the `proxies.txt` file in this format:  
-`http://username:password@ip:port`
-
-3️⃣ **Question setup:**  
-Set up questions in the `questions.js` file. Some sample questions are already provided, but users should avoid using the same questions repeatedly. The system may have bots that penalize repetitive questions by deducting points.  
-
-To generate unique questions, you can use AI tools like [poe.com](https://poe.com) or [groq.com](https://groq.com). While creating questions, ensure they are related to topics KiteAI supports, which are:  
-- **Kite AI Assistant**  
-- **Crypto Price Assistant**  
-- **Transaction Analyzer**
-
-For those unfamiliar with creating questions, here’s a suggested prompt to use:  
-*“If you're a (topic), generate (number of questions) engaging questions about blockchain, cryptocurrency, or Web3 technology. Make it thought-provoking and suitable for an AI assistant to answer.”*  
-
-After generating the questions, update each topic in the `questions.js` file.
-
-4️⃣ **Run the tool:**  
-Use one of the following commands to run the tool:  
-`node main`  (may be not working)
-or  
-`node main-thread`  ( use this )
+### Step 1: Install Dependencies
+1. After downloading and extracting the tool, open a terminal in the project folder.  
+2. Run the following command to install required modules:  
+   ```bash
+   npm install
+   ```
+3. Configure the bot in the `config.js` file.
 
 ---
 
-### **⚠️ Notes:**
-
-1️⃣ Points may not appear immediately after using the tool. It may take around a day for the points to update. The project has acknowledged this issue and is working on resolving it—it’s not a bug in the tool itself. Please be patient.  
-
-2️⃣ **Autoref function:** Although the autoref function generates referrals, it doesn't add points because the referral conditions require completing the following:  
-   - Completing at least **three agent actions**,  
-   - Following KiteAI on X (formerly Twitter),  
-   - Retweeting on X (Twitter).  
-
-   Instructions for autoref: Use the command `node autoref`. Wallets for this function are created in the `wallets_ref.txt` file in this format:  
-   `address|privatekey|mnemonic`  
-
-   Private keys are stored in the `privateKeys_ref.txt` file.
-
-3️⃣ **Pre-linked Wallets:** All wallets must be linked with a registered account before running the tool.  
+### Step 2: Add Wallet and Proxy Details
+- Save wallet addresses in the `wallets.txt` file.
+- Save proxy details in the `proxies.txt` file in the following format:
+  ```
+  http://username:password@ip:port
+  ```
 
 ---
 
-**💬 Useful Links:**  
+### Step 3: Set Up Questions
+1. Edit the `questions.js` file to include your unique questions. Sample questions are provided, but it’s highly recommended to create your own questions to avoid system penalties for repetitive or common queries.
+2. To generate unique questions, use tools like:  
+   - [Poe](https://poe.com)  
+   - [Groq](https://groq.com)  
+
+3. Focus on the main topics KiteAI supports:  
+   - Kite AI Assistant  
+   - Crypto Price Assistant  
+   - Transaction Analyzer  
+
+   **Prompt for generating questions:**  
+   *“If you're a [topic], generate [number of questions] engaging questions about blockchain, cryptocurrency, or Web3 technology. Make it thought-provoking and suitable for an AI assistant to answer.”*  
+
+---
+
+### Step 4: Run the Tool
+Execute one of the following commands in the terminal to launch the tool:
+- For standard operation:  
+   ```bash
+   node main
+   ```
+- For threaded operation (recommended):  
+   ```bash
+   node main-thread
+   ```
+
+---
+
+## **Important Notes**
+1. **Points Update Delay**: Points may take up to 24 hours to reflect. The development team is addressing this issue, so please be patient.
+2. **Autoref Function**:  
+   - This feature generates referrals but doesn’t award points unless specific actions are completed:
+     - Perform at least three agent actions.
+     - Follow KiteAI on X (Twitter).
+     - Retweet KiteAI on X (Twitter).
+   - To run the autoref function, use:  
+     ```bash
+     node autoref
+     ```
+     Wallets created via autoref are saved in the `wallets_ref.txt` file in the following format:  
+     ```
+     address|privatekey|mnemonic
+     ```
+     Private keys are stored in `privateKeys_ref.txt`.
+3. **Pre-Linked Wallets**: Ensure wallets are linked with pre-registered accounts before running the tool.
+
+---
+
+## **Useful Links**
 - **Group Chat:** [Telegram Chat](https://t.me/airdrophuntersieutocchat)  
 - **Telegram Boost:** [Boost Telegram](https://t.me/boost/airdrophuntersieutoc)  
 - **GitHub Repository:** [GitHub](https://github.com/Hunga9k50doker/kite-ai)
 
 ---
 
-**#kiteai**
-
-I hope this helps! Let me know if you need further assistance. 😊
+### **#kiteai**
+This guide ensures you’re set up and running smoothly. Feel free to reach out if you have more questions or need clarification! 🚀
