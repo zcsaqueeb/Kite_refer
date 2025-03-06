@@ -84,12 +84,5 @@ Execute one of the following commands in the terminal to launch the tool:
 
 ---
 
-## **Useful Links**
-- **Group Chat:** [Telegram Chat](https://t.me/airdrophuntersieutocchat)  
-- **Telegram Boost:** [Boost Telegram](https://t.me/boost/airdrophuntersieutoc)  
-- **GitHub Repository:** [GitHub](https://github.com/Hunga9k50doker/kite-ai)
-
----
-
 ### **#kiteai**
 This guide ensures you’re set up and running smoothly. Feel free to reach out if you have more questions or need clarification! 🚀
